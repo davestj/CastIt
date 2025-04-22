@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{6508B7A3-6534-41FF-A43E-D9D530915C93}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>libxml2-2.4.9/include;mysql/include;ResizableLib;curl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\CastIt.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\CastIt.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\CastIt.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\CastIt.exe</OutputFile>
+      <AdditionalDependencies>curl/lib/curlstatic.lib;libxml2-2.4.9/win32/libxml2/libxml2_a/libxml2.lib;mysql/lib/opt/mysqlclient.lib;ResizableLib/Debug/ResizableLib.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>libxml2-2.4.9/include;mysql/include;ResizableLib;curl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\CastIt.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\CastIt.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\CastIt.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\CastIt.exe</OutputFile>
+      <AdditionalDependencies>curl/lib/curlstatic.lib;libxml2-2.4.9/win32/libxml2/libxml2_a/libxml2.lib;mysql/lib/opt/mysqlclient.lib;ResizableLib/Release/ResizableLib.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddServer.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CastIt.cpp" />
+    <ClCompile Include="CastItDlg.cpp" />
+    <ClCompile Include="ConfigurationDialog.cpp" />
+    <ClCompile Include="DB.cpp" />
+    <ClCompile Include="FTPInfo.cpp" />
+    <ClCompile Include="HistoryEdit.cpp" />
+    <ClCompile Include="HyperLink.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="scastd.cpp" />
+    <ClCompile Include="socket.cpp" />
+    <ClCompile Include="STabCtrl.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="SystemTray.cpp" />
+    <ClCompile Include="TaskbarNotifier.cpp" />
+    <ClCompile Include="WinXPButtonST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CastIt.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddServer.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CastIt.h" />
+    <ClInclude Include="CastItDlg.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="ConfigurationDialog.h" />
+    <ClInclude Include="DB.h" />
+    <ClInclude Include="FTPInfo.h" />
+    <ClInclude Include="HistoryEdit.h" />
+    <ClInclude Include="HyperLink.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="STabCtrl.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="SystemTray.h" />
+    <ClInclude Include="TaskbarNotifier.h" />
+    <ClInclude Include="urlopen.h" />
+    <ClInclude Include="WinXPButtonST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\add_server1.ico" />
+    <Image Include="res\add_server2.ico" />
+    <Image Include="res\allcastlogo.bmp" />
+    <Image Include="res\apache88x31.bmp" />
+    <Image Include="res\bitmap13.bmp" />
+    <Image Include="res\bitmap14.bmp" />
+    <Image Include="res\bitmap15.bmp" />
+    <Image Include="res\bitmap17.bmp" />
+    <Image Include="res\CastIt.ico" />
+    <Image Include="res\castit88x31logo.bmp" />
+    <Image Include="res\castitlogo-newbmp.bmp" />
+    <Image Include="res\castitlogo.bmp" />
+    <Image Include="res\checkboxes.bmp" />
+    <Image Include="res\Classes1_32x32x16.ico" />
+    <Image Include="res\edit.ico" />
+    <Image Include="res\geniusmedialogo.bmp" />
+    <Image Include="res\help.bmp" />
+    <Image Include="res\help.ico" />
+    <Image Include="res\help_16x16.ico" />
+    <Image Include="res\home.ico" />
+    <Image Include="res\Icecast2_1.ico" />
+    <Image Include="res\Icecast2_32x32.ico" />
+    <Image Include="res\icelogo.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\logo.bmp" />
+    <Image Include="res\media_blbg.bmp" />
+    <Image Include="res\media_blbg.ico" />
+    <Image Include="res\media_blk_bg.bmp" />
+    <Image Include="res\media_blk_bg.ico" />
+    <Image Include="res\mysql.bmp" />
+    <Image Include="res\network.ico" />
+    <Image Include="res\NEWICONS\add_server.ico" />
+    <Image Include="res\NEWICONS\castit.ico" />
+    <Image Include="res\NEWICONS\configure.ico" />
+    <Image Include="res\NEWICONS\delete_log.ico" />
+    <Image Include="res\NEWICONS\exit.ico" />
+    <Image Include="res\NEWICONS\home.ico" />
+    <Image Include="res\NEWICONS\icecast2.ico" />
+    <Image Include="res\NEWICONS\ico00001.ico" />
+    <Image Include="res\NEWICONS\icon1.ico" />
+    <Image Include="res\NEWICONS\shoutcast.ico" />
+    <Image Include="res\NEWICONS\systray.ico" />
+    <Image Include="res\NEWICONS\timer.ico" />
+    <Image Include="res\NEWICONS\update.ico" />
+    <Image Include="res\No3_32x32x256.ico" />
+    <Image Include="res\oddsocklogo.bmp" />
+    <Image Include="res\php4.bmp" />
+    <Image Include="res\rrdtool.bmp" />
+    <Image Include="res\satalite.ico" />
+    <Image Include="res\sc-thumb.bmp" />
+    <Image Include="res\sc_serv_1.ico" />
+    <Image Include="res\sc_serv_32X32.ico" />
+    <Image Include="res\server.ico" />
+    <Image Include="res\skinmsn.bmp" />
+    <Image Include="res\small-grey-ogg.bmp" />
+    <Image Include="res\start_castit.ico" />
+    <Image Include="res\statlite1.ico" />
+    <Image Include="res\stop.ico" />
+    <Image Include="res\systray.ico" />
+    <Image Include="res\systray2.ico" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Tools4.ico" />
+    <Image Include="res\winmysqladmin_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\CastIt.rc2" />
+    <CustomBuild Include="res\Hand.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="libxml2-2.4.9\win32\libxml2\libxml2_a.vcxproj">
+      <Project>{f62b0edb-3f77-44a9-9f22-24730d050fa2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="ResizableLib\ResizableLib.vcxproj">
+      <Project>{a48d4e69-1b1c-4ec5-b225-cde660548b3f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

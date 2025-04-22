@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ba824e7d-107b-4c5c-84a8-35b3cd7b6c3b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a3434d69-ff10-4587-98bd-cd927ddc703e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{735164c4-b04a-4d71-85fb-bd84e1170cbc}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CastIt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CastItDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scastd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemTray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskbarNotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinXPButtonST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CastIt.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CastIt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CastItDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemTray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskbarNotifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urlopen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinXPButtonST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NEWICONS\add_server.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\add_server1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\add_server2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\allcastlogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\apache88x31.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CastIt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\castit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\castit88x31logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\castitlogo-newbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\castitlogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\checkboxes.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Classes1_32x32x16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\configure.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\delete_log.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\edit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\geniusmedialogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help_16x16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\home.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\home.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\icecast2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icecast2_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icecast2_32x32.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icelogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\media_blbg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\media_blbg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\media_blk_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\media_blk_bg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mysql.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\network.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\No3_32x32x256.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\oddsocklogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\php4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rrdtool.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\satalite.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sc-thumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sc_serv_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sc_serv_32X32.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\server.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\shoutcast.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skinmsn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\small-grey-ogg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\start_castit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\statlite1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\systray.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\systray.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\systray2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\timer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tools4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NEWICONS\update.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\winmysqladmin_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\CastIt.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Hand.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
