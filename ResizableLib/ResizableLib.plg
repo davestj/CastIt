@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ResizableLib - Win32 Debug Static--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Ed\LOCALS~1\Temp\RSP1925.tmp" with contents
+[
+/nologo /MTd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug_Static/ResizableLib.pch" /Yu"stdafx.h" /Fo"Debug_Static/" /Fd"Debug_Static/" /FD /GZ /c 
+"D:\Ed\CastIt\ResizableLib\ResizableDialog.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableFormView.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableGrip.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableLayout.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableMinMax.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizablePage.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizablePageEx.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableSheet.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableSheetEx.cpp"
+"D:\Ed\CastIt\ResizableLib\ResizableState.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Ed\LOCALS~1\Temp\RSP1925.tmp" 
+Creating temporary file "D:\DOCUME~1\Ed\LOCALS~1\Temp\RSP1926.tmp" with contents
+[
+/nologo /MTd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug_Static/ResizableLib.pch" /Yc"stdafx.h" /Fo"Debug_Static/" /Fd"Debug_Static/" /FD /GZ /c 
+"D:\Ed\CastIt\ResizableLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Ed\LOCALS~1\Temp\RSP1926.tmp" 
+Creating temporary file "D:\DOCUME~1\Ed\LOCALS~1\Temp\RSP1927.tmp" with contents
+[
+/nologo /out:"Debug_Static\ResizableLib.lib" 
+.\Debug_Static\ResizableDialog.obj
+.\Debug_Static\ResizableFormView.obj
+.\Debug_Static\ResizableGrip.obj
+.\Debug_Static\ResizableLayout.obj
+.\Debug_Static\ResizableMinMax.obj
+.\Debug_Static\ResizablePage.obj
+.\Debug_Static\ResizablePageEx.obj
+.\Debug_Static\ResizableSheet.obj
+.\Debug_Static\ResizableSheetEx.obj
+.\Debug_Static\ResizableState.obj
+.\Debug_Static\StdAfx.obj
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\Ed\LOCALS~1\Temp\RSP1927.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ResizableDialog.cpp
+ResizableFormView.cpp
+ResizableGrip.cpp
+ResizableLayout.cpp
+ResizableMinMax.cpp
+ResizablePage.cpp
+ResizablePageEx.cpp
+ResizableSheet.cpp
+ResizableSheetEx.cpp
+ResizableState.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

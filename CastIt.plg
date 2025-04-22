@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libxml2_a - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dstjohn\LOCALS~1\Temp\RSP10B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "IN_LIBXML" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\catalog.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\debugXML.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\DOCBparser.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\encoding.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\entities.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\error.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\globals.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\hash.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\HTMLparser.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\HTMLtree.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\list.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\nanoftp.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\nanohttp.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\parser.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\parserInternals.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\SAX.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\threads.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\tree.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\uri.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\valid.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\xinclude.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\xlink.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\xmlIO.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\xmlmemory.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\xpath.c"
+"F:\CVSROOT\PROJECTS\CastIt_9-oddsock-build\CastIt_9.0\libxml2-2.4.9\xpointer.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dstjohn\LOCALS~1\Temp\RSP10B.tmp" 
+Creating temporary file "C:\DOCUME~1\dstjohn\LOCALS~1\Temp\RSP10C.tmp" with contents
+[
+/nologo /out:"libxml2_a\libxml2.lib" 
+".\Release\catalog.obj"
+".\Release\debugXML.obj"
+".\Release\DOCBparser.obj"
+".\Release\encoding.obj"
+".\Release\entities.obj"
+".\Release\error.obj"
+".\Release\globals.obj"
+".\Release\hash.obj"
+".\Release\HTMLparser.obj"
+".\Release\HTMLtree.obj"
+".\Release\list.obj"
+".\Release\nanoftp.obj"
+".\Release\nanohttp.obj"
+".\Release\parser.obj"
+".\Release\parserInternals.obj"
+".\Release\SAX.obj"
+".\Release\threads.obj"
+".\Release\tree.obj"
+".\Release\uri.obj"
+".\Release\valid.obj"
+".\Release\xinclude.obj"
+".\Release\xlink.obj"
+".\Release\xmlIO.obj"
+".\Release\xmlmemory.obj"
+".\Release\xpath.obj"
+".\Release\xpointer.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\dstjohn\LOCALS~1\Temp\RSP10C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Error spawning cl.exe
+
+
+
+<h3>Results</h3>
+CastIt.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
