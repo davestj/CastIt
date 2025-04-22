@@ -1,6 +1,6 @@
 # 🎙️ CastIt
 
-**Legacy Broadcast Encoder + Streaming Control Panel (C++ MFC, Win32)**  
+**Broadcast Streaming Control Panel - Streaming Server Statistics (C++ MFC, Win32)**  
 _A fully-featured legacy Windows broadcasting tool originally built in Visual Studio 6. Being revived and modernized for Visual Studio 2022._
 
 ---
