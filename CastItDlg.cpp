@@ -22,7 +22,7 @@ static char THIS_FILE[] = __FILE__;
 #endif
 
 #define WM_ICON_NOTIFY  WM_APP+10
-#define CASTITVERSION "9.0 build 556"
+#define CASTITVERSION "9.1 build 2025"
 #define CURRENTTIME "(" __DATE__ "@" __TIME__ ")"
 
 #define IDS_WEBADDR        _T("http://casterclub.com/index.php")

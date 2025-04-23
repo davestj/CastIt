@@ -1,4 +1,4 @@
-//*************************************************************************
+﻿//*************************************************************************
 // BCMenu.cpp : implementation file
 // Version : 3.02
 // Date : March 2002
@@ -1939,6 +1939,7 @@ void BCMenu::DeleteMenuList(void)
 
 void BCMenu::SynchronizeMenu(void)
 {
+	int j = 0;  // 🛠️ DECLARE your loop counters
 	CTypedPtrArray<CPtrArray, BCMenuData*> temp;
 	BCMenuData *mdata;
 	CString string;
@@ -2437,6 +2438,7 @@ HBITMAP BCMenu::LoadSysColorBitmap(int nResourceId)
 
 BOOL BCMenu::RemoveMenu(UINT uiId,UINT nFlags)
 {
+	int j = 0;
 	if(MF_BYPOSITION&nFlags){
 		UINT uint = GetMenuState(uiId,MF_BYPOSITION);
 		if(uint&MF_SEPARATOR && !(uint&MF_POPUP)){
